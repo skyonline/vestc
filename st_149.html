@@ -9,12 +9,24 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="assets/templates/site/mobile/jquery.mobile-1.1.0.css" />
 <link rel="stylesheet" href="assets/templates/site/mobile/vestc.css" />
-<script src="assets/templates/site/mobile/jquery.js"></script>
-<script src="assets/templates/site/mobile/jquery.mobile-1.1.0.js"></script>
-<link rel="stylesheet" href="assets/templates/site/mobile/jqm-docs.css" />
-<script src="assets/templates/site/mobile/jqm-docs.js"></script>
+<script src="assets/templates/site/mobile/jquery.min.js"></script>
+<script>
+$(document).bind("mobileinit", function(){
+ $.mobile.ajaxEnabled = true;
+ $('[data-role=page]').bind("pageshow", function() {
+    setTimeout(function(){$.mobile.silentScroll($("#368").offset().top);},100);
+ });
+});
+</script>
+<script src="assets/templates/site/mobile/jquery.mobile-1.1.0.min.js"></script>
 </head>
+<script>
+$(document).ready(function() {
+  $('html,body').animate({scrollTop: $("#a368").offset().top},'slow');
+});
+</script>
 <body>
+<div id="top"></a>
 <div data-role="page" class="type-home">
  <div data-role="header" data-position="inline"><a href="javascript:history.back(-1);" data-icon="back">Назад</a><h1></h1><a href="index.html" data-icon="home">Главная</a></div>
  <div data-role="content">
@@ -22,9 +34,11 @@
 
 
 <div style="padding:10px;">
-<h1 style="font-size:14px;">Статья 149. Основания прекращения производства по делу</h2>
+<h1 style="font-size:14px;">ГЛАВА 15. ПРЕКРАЩЕНИЕ ПРОИЗВОДСТВА ПО ДЕЛУ</h1>
  <div style="font-size:12px;">
- <p><span style="font-size: 100%;">Хозяйственный суд прекращает производство по делу, если:</span></p>
+ <a name="a368" id="a368"></a>
+<h2>Статья 149. Основания прекращения производства по делу</h2><br/>
+<p><span style="font-size: 100%;">Хозяйственный суд прекращает производство по делу, если:</span></p>
 <p><span style="font-size: 100%;">спор не подлежит рассмотрению в хозяйственном суде;</span></p>
 <p><span style="font-size: 100%;">имеются вступившие в законную силу постановления хозяйственного суда или общего суда, решение иностранного суда или иностранное арбитражное решение, принятые по спору между теми же лицами, о том же предмете и по тем же основаниям, за исключением случаев, когда хозяйственный суд отказал в признании и приведении в исполнение решения иностранного суда, иностранного арбитражного решения;</span></p>
 <p><span style="font-size: 100%;">имеется решение третейского суда, международного арбитражного (третейского) суда, находящегося на территории Республики Беларусь, принятое по спору между теми же лицами, о том же предмете и по тем же основаниям, за исключением случаев, когда хозяйственный суд отказал в выдаче исполнительного документа на принудительное исполнение этого решения;</span></p>
@@ -33,6 +47,14 @@
 <p><span style="font-size: 100%;">спорное правоотношение после смерти индивидуального предпринимателя или гражданина, являющихся стороной по делу, не допускает правопреемства;</span></p>
 <p><span style="font-size: 100%;">заключено мировое соглашение и оно утверждено хозяйственным судом;</span></p>
 <p><span style="font-size: 100%;">стороны заключили соглашение о примирении в порядке, установленном главой 17 настоящего Кодекса.</span></p>
+<a href="javascript:history.back(-1);" data-role="button" data-ajax="true">Назад</a><a name="a369" id="a369"></a>
+<h2>Статья 150. Порядок и последствия прекращения производства по делу</h2><br/>
+<p><span style="font-size: 100%;">О прекращении производства по делу хозяйственный суд выносит определение, в котором указываются основания для его прекращения, а также решаются вопросы о распределении между сторонами судебных расходов и возврате государственной пошлины в случаях, предусмотренных законодательством.</span></p>
+<p><span style="font-size: 100%;">Копии определения хозяйственного суда о прекращении производства по делу направляются лицам, участвующим в деле.</span></p>
+<p><span style="font-size: 100%;">Определение хозяйственного суда о прекращении производства по делу может быть обжаловано в порядке, установленном настоящим Кодексом.</span></p>
+<p><span style="font-size: 100%;">В случае прекращения производства по делу вторичное обращение в хозяйственный суд по спору между теми же лицами, о том же предмете и по тем же основаниям не допускается.</span></p>
+<a href="javascript:history.back(-1);" data-role="button" data-ajax="true">Назад</a>
+
  </div>
 </div>
 

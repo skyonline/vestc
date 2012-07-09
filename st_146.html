@@ -9,12 +9,24 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="assets/templates/site/mobile/jquery.mobile-1.1.0.css" />
 <link rel="stylesheet" href="assets/templates/site/mobile/vestc.css" />
-<script src="assets/templates/site/mobile/jquery.js"></script>
-<script src="assets/templates/site/mobile/jquery.mobile-1.1.0.js"></script>
-<link rel="stylesheet" href="assets/templates/site/mobile/jqm-docs.css" />
-<script src="assets/templates/site/mobile/jqm-docs.js"></script>
+<script src="assets/templates/site/mobile/jquery.min.js"></script>
+<script>
+$(document).bind("mobileinit", function(){
+ $.mobile.ajaxEnabled = true;
+ $('[data-role=page]').bind("pageshow", function() {
+    setTimeout(function(){$.mobile.silentScroll($("#364").offset().top);},100);
+ });
+});
+</script>
+<script src="assets/templates/site/mobile/jquery.mobile-1.1.0.min.js"></script>
 </head>
+<script>
+$(document).ready(function() {
+  $('html,body').animate({scrollTop: $("#a364").offset().top},'slow');
+});
+</script>
 <body>
+<div id="top"></a>
 <div data-role="page" class="type-home">
  <div data-role="header" data-position="inline"><a href="javascript:history.back(-1);" data-icon="back">Назад</a><h1></h1><a href="index.html" data-icon="home">Главная</a></div>
  <div data-role="content">
@@ -22,9 +34,19 @@
 
 
 <div style="padding:10px;">
-<h1 style="font-size:14px;">Статья 146. Право хозяйственного суда приостановить производство по делу</h2>
+<h1 style="font-size:14px;">ГЛАВА 14. ПРИОСТАНОВЛЕНИЕ ПРОИЗВОДСТВА ПО ДЕЛУ</h1>
  <div style="font-size:12px;">
- <p><span style="font-size: 100%;">Хозяйственный суд вправе приостановить производство по делу в случаях:</span></p>
+ <a name="a363" id="a363"></a>
+<h2>Статья 145. Обязанность хозяйственного суда приостановить производство по делу</h2><br/>
+<p><span style="font-size: 100%;">Хозяйственный суд обязан приостановить производство по делу в случаях:</span></p>
+<p><span style="font-size: 100%;">невозможности рассмотрения дела до принятия решения по другому делу или вопросу, рассматриваемому в порядке конституционного, гражданского, хозяйственного, уголовного или административного судопроизводства или иным компетентным органом;</span></p>
+<p><span style="font-size: 100%;">пребывания ответчика &ndash; индивидуального предпринимателя или гражданина в участвующей в боевых действиях части Вооруженных Сил, других войск или воинских формирований Республики Беларусь или заявления соответствующего ходатайства истцом, находящимся в участвующей в боевых действиях части Вооруженных Сил, других войск или воинских формирований Республики Беларусь;</span></p>
+<p><span style="font-size: 100%;">выбытия стороны из дела;</span></p>
+<p><span style="font-size: 100%;">утраты индивидуальным предпринимателем или гражданином, являющимися стороной по делу, дееспособности;</span></p>
+<p><span style="font-size: 100%;">в иных случаях, предусмотренных законодательными актами.</span></p>
+<a href="javascript:history.back(-1);" data-role="button" data-ajax="true">Назад</a><a name="a364" id="a364"></a>
+<h2>Статья 146. Право хозяйственного суда приостановить производство по делу</h2><br/>
+<p><span style="font-size: 100%;">Хозяйственный суд вправе приостановить производство по делу в случаях:</span></p>
 <p><span style="font-size: 100%;">назначения хозяйственным судом экспертизы;</span></p>
 <p><span style="font-size: 100%;">реорганизации юридических лиц и (или) организаций, не являющихся юридическими лицами, являющихся лицами, участвующими в деле;</span></p>
 <p><span style="font-size: 100%;">привлечения индивидуального предпринимателя или гражданина, являющихся лицами, участвующими в деле, для исполнения государственной обязанности;</span></p>
@@ -35,6 +57,15 @@
 <p><span style="font-size: 100%;">направления материалов в следственные органы;</span></p>
 <p><span style="font-size: 100%;">назначения примирителя для проведения примирительной процедуры;</span></p>
 <p><span style="font-size: 100%;">в иных случаях, предусмотренных законодательными актами.</span></p>
+<a href="javascript:history.back(-1);" data-role="button" data-ajax="true">Назад</a><a name="a365" id="a365"></a>
+<h2>Статья 147. Возобновление производства по делу</h2><br/>
+<p><span style="font-size: 100%;">Хозяйственный суд возобновляет производство по делу по заявлению лиц, участвующих в деле, или по своей инициативе после устранения обстоятельств, вызвавших его приостановление, либо до их устранения по заявлению лица, на основании ходатайства которого производство по делу было приостановлено.</span></p>
+<a href="javascript:history.back(-1);" data-role="button" data-ajax="true">Назад</a><a name="a366" id="a366"></a>
+<h2>Статья 148. Порядок приостановления и возобновления производства по делу</h2><br/>
+<p><span style="font-size: 100%;">Хозяйственный суд выносит определения о приостановлении производства по делу, о его возобновлении или об отказе в его возобновлении.</span></p>
+<p><span style="font-size: 100%;">Определения хозяйственного суда о приостановлении производства по делу или об отказе в его возобновлении могут быть обжалованы в порядке, установленном настоящим Кодексом.</span></p>
+<a href="javascript:history.back(-1);" data-role="button" data-ajax="true">Назад</a>
+
  </div>
 </div>
 

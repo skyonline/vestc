@@ -10,7 +10,6 @@
   <name>Хозяйственный процессуальний кодекс РБ</name>
   <description>Хозяйственный процессуальний кодекс Республики Беларусь</description>
   <author href="http://www.skyname.net" email="info@skyname.net">Sky Online</author>
-  <preference name="orientation" value="portrait" />
   <gap:splash src="splash.png" />
   <icon src="icon.png" />
 </widget>
