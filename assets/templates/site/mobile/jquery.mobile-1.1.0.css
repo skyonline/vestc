@@ -2088,3 +2088,15 @@ span.ui-slider-label-b { z-index: 0; right: 0; text-indent: 1.5em;}
 
 
 li {font-size:14px;}
+
+.foo .ui-link {font-size:12px; color:#ffffff; text-shadow:none; text-decoration:none;}
+.foo .ui-link:hover {font-size:12px; color:#d0d0d0; text-shadow:none; text-decoration:underline;}
+.foo .ui-link:visited {font-size:12px; color:#ffffff; text-shadow:none; text-decoration:none;}
+
+.foo2 .ui-link {font-size:11px; color:#f0f0f0; text-shadow:none; text-decoration:none;}
+.foo2 .ui-link:hover {font-size:11px; color:#d0d0d0; text-shadow:none; text-decoration:underline;}
+.foo2 .ui-link:visited {font-size:11px; color:#f0f0f0; text-shadow:none; text-decoration:none;}
+
+.foo3 .ui-link {font-size:11px; color:#e1bfc2; text-shadow:none; text-decoration:none;}
+.foo3 .ui-link:hover {font-size:11px; color:#c0c0c0; text-shadow:none; text-decoration:underline;}
+.foo3 .ui-link:visited {font-size:11px; color:#e1bfc2; text-shadow:none; text-decoration:none;}
